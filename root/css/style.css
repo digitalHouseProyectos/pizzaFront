@@ -26,26 +26,28 @@ header div {
     padding-left: 20px;
 }
 
-header nav ul {
+nav ul {
     color: #F3F3F3;
     display: flex;
     list-style: none;
 }
 
-header nav ul li {
+nav ul li {
     font-size: 16px;
     padding: 20px;
 }
 
 main {
     align-items: center;
+    background-color: #E5E5E5;
     display: flex;
     justify-content: center;
 }
 
 article {
-    border: 1px solid black;
+    border-radius: 8px;
     height: 350px;
+    margin: 50px 2px;
     width: 490px;
 }
 
@@ -62,6 +64,32 @@ article {
     position: absolute;
 }
 
+.card-podio {
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-podio-contenido {
+    display: flex;
+}
+
 footer {
-    
+    align-items: center;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer ul {
+    flex-direction: column;
+}
+
+footer ul li {
+    padding: 5px;
 }
